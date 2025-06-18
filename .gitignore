@@ -1,4 +1,4 @@
-[⚠️ Suspicious Content] -- // variables
+
 local library = {}
 local pages = {}
 local sections = {}
