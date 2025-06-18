@@ -567,6 +567,7 @@ function library:loader(props)
 		{
 			Name = "NWTF",
 			AnchorPoint = Vector2.new(0.5,0.5),
+			BackgroundTransparency = 1,
 			BackgroundColor3 = Color3.fromRGB(168, 52, 235),
 			BorderColor3 = Color3.fromRGB(12, 12, 12),
 			BorderSizePixel = 1,
