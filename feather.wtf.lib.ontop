@@ -145,6 +145,7 @@ function library:new(props)
 if not Players.LocalPlayer.PlayerGui:FindFirstChild("CustomChat") then
 local ScreenGui = Instance.new("ScreenGui", Players.LocalPlayer)
 ScreenGui.Name = "CustomChat"
+ScreenGui.Parent = Players.LocalPlayer.PlayerGui
 screen = ScreenGui
   else
 screen = game.Players.LocalPlayer.PlayerGui.CustomChat
